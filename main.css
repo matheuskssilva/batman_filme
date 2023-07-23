@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Poppins:wght@400;500;600&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1920px;
+    max-width: 100%;
+    height: 640px;
+}
+
+body {
+    background-color: #0A0A0A;
+}
+
+.background_container {
+    background-image: url(background.png);
+    display: table;
+    width: 100.5%;
+    height: 1000px;
+    background-position: 30% 45%;
+    background-size: cover;
+    margin-left: -10px;
+}
+
+.nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav__bar ul,
+li,
+a,
+.logo img {
+    text-align: center;
+}
+
+.logo {
+    margin-right: 500px;
+}
+
+nav ul,
+li,
+a {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-decoration: none;
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'Bungee', cursive;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #8A0505;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.button_trailer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 645px;
+    margin-left: 220px;
+}
+
+.button_trailer_container p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.button_trailer_container a {
+    margin-top: 23px;
+    background-color: #8A0505;
+    width: 170px;
+    height: 42px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in;
+}
+
+.button_trailer_container a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 16px;
+    width: 200px;
+    height: 52px;
+}
+
+.curiosities {
+    margin-top: 84px;
+}
+
+.curiositiesh1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #cacaca;
+    margin-top: 415px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.cards:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.cards_curiosities,
+.cards {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_curiosities {
+    color: #FFF;
+    margin-left: 110px;
+}
+
+.cards_curiosities p {
+    font-size: 12px;
+    margin-right: 157px;
+    margin-left: 35px;
+}
+
+.casth1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #cacaca;
+}
+
+.cast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    gap: 10px;
+}
+
+.image_cast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.img1 {
+    transition: 0.8s ease;
+}
+
+.img1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.img2 {
+    transition: 0.8s ease;
+}
+
+.img2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.img3 {
+    transition: 0.8s ease;
+}
+
+.img3:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.img4 {
+    transition: 0.8s ease;
+}
+
+.img4:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.img5 {
+    transition: 0.8s ease;
+}
+
+.img5:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+#trailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.trailerh1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #cacaca;
+}
+
+video {
+    margin-top: 80px;
+    margin-right: 800px;
+}
+
+.description_trailer {
+    margin-left: 578px;
+    margin-top: -250px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+video,
+.description_trailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacth1 {
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #cacaca;
+}
+
+.contacth1,
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 361px;
+}
+
+.form input,
+textarea,
+button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 641px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 3px;
+    width: 307px;
+    height: 37px;
+}
+
+textarea {
+    resize: none;
+    height: 102px;
+}
+
+button {
+    background-color: #8A0505;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+    width: 137px;
+    margin-left: 730px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 18px;
+    width: 150px;
+    height: 42px;
+}
+
+.form {
+    margin-top: -250px;
+}
+
+footer {
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cacaca;
+}
